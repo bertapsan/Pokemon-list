@@ -9,7 +9,7 @@ const item = props.poke.map((itemPokemon)=>{
         </li>
     )});
 return ( 
-    <ul>{item}</ul>
+    <ul className="list">{item}</ul>
 )
 };
 export default PokeList;

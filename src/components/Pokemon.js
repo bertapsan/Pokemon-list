@@ -2,7 +2,7 @@ import React from 'react';
 
 const Pokemon =(props)=>{
     const itemTypes = props.itemPokemonProp.types.map((types,index)=>{return(
-        <li key={index}>
+        <li className="types__item" key={index}>
         {types}
         </li>
 )});
